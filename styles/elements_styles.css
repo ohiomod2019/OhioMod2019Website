@@ -222,7 +222,7 @@ section
 {
 	width: 187px;
 	height: 66px;
-	background: #ff4200;
+	background: #ba2626;
 	overflow: hidden;
 }
 .line_button
@@ -384,7 +384,7 @@ section
 }
 .nav_items li.active
 {
-	background: #ff4200;
+	background: #ba2626;
 }
 .nav_items li.active a
 {
@@ -392,7 +392,7 @@ section
 }
 .nav_items li:hover
 {
-	background: #ff4200;
+	background: #ba2626;
 }
 .nav_items li:hover a
 {
@@ -698,7 +698,7 @@ section
 	transform: translate(-50%, -50px);
 	font-size: 72px;
 	font-weight: 900;
-	color: #ff0000;
+	color: #ba2626;
 	opacity: 0.32;
 }
 .section_title h2::before
@@ -738,18 +738,6 @@ section
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
-}
-.services_page_shapes
-{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center center;
-	pointer-events: none;
 }
 .home_content
 {
@@ -806,15 +794,15 @@ section
 .border_button
 {
 	background: transparent;
-	border: solid 2px #ff4200;
+	border: solid 2px #ba2626;
 }
 .border_button a
 {
-	color: #ff4200;
+	color: #ba2626;
 }
 .border_button a svg
 {
-	fill: #ff4200;
+	fill: #ba2626;
 }
 .border_button a::after
 {
