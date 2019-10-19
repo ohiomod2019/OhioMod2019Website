@@ -117,39 +117,57 @@ text-align:center;
 
   <!-- Full-width slides/quotes -->
   <div class="mySlides">
-  <h1 class="sectiontitle">Methodology</h1>
+  <h1 class="sectiontitle">Protocols</h1>
       <div class=line1></div>
-  <h2 class="sectionsmalltitle">Structure Design</h2>
-    <p class="text1">The aim of this project was to create a DNA origami ring-shaped structure or “gear” capable of moving along a DNA origami track. The “gear” is comprised of twelve 14hb segments connected by single-stranded scaffold regions to create a round closed loop 60nm in diameter. The track is a 200nm in length 14hb with a honey-comb cross section. The “gear” and track were designed in an in-house CAD program, tweaked in cadnano, and verified through OxDNA simulations. 
-</p>
-<h2 class="sectionsmalltitle">Structure Characterization</h2>
-<p class="text1">
-For both the gear and track, the optimal concentration of magnesium chloride (MgCl2) was defined with a MgCl2 gradient during a 2.5 day annealing ramp protocol similar </p> 
-<p class="text1">
- Figure 1: A. Agarose gel of the Track 2.5 day folding reaction with a MgCl2 (mM) gradient. From left to right: 1kb ladder, 12-26mM MgCl2, 8064bp scaffold. Optimal condition is 20mM MgCl2. B. TEM image of well-folded Track at 20mM  MgCl2 (scale bar 100nm). 
- 
- </p> 
-<p class="text1">
-Figure 2: A. Agarose gel of the Gear 2.5 day folding reaction with a MgCl2 (mM) gradient. From left to right: 1kb ladder, 8064bp scaffold, 12-26mM MgCl2. Optimal conditions are 24mM to 26mM MgCl2. B. TEM image of well-folded Gear at 24mM MgCl2.
-
-Once optimal MgCl2 conditions are known further characterization  includes a 4-hour annealing ramp of a temperature gradient from 60°C-40°C.
- </p> 
- <p class="text1">Figure 3: A. Agarose gel of the Track 4-hr folding reaction with an annealing temperature gradient (°C). From left to right: 1kb ladder, 8064bp scaffold, 60°C-40°C. Optimal annealing temperature for the track is 52.6°C. B. TEM image of well-folded Track from a 4-hr fold at 52.6°C (scale bar 100nm). 
+  <h2 class="sectionsmalltitle">DNA Origami Folding
+</h2>
+    <p class="text1">DNA origami is the self-assembly of complex nanostructures using DNA as a programmable building block14–17 and it offers the capacity to construct nanodevices with programmable dynamic functions.  DNA origami is binding a long single-stranded DNA (ssDNA) called a scaffold made of M13 bacteriophage with multiple short synthetic ssDNA called staples.
+Staple and scaffold bind in a piecewise manner based on watson-crick base pairing principles to create regions of double-stranded DNA (dsDNA). This process allows us to control the final conformation of the DNA origami nanostructure. DNA nanostructures are folded through a multi-process annealing ramp including a short melt phase, a longer phase at an annealing temperature(s), and a cooling phase as shown in figure 1. 
 
 </p>
-  <p class="text1">Figure 4: A. Agarose gel of the Gear 4-hr folding reaction with an annealing temperature gradient (°C). From left to right: 1kb ladder, 8064bp scaffold, 60°C-40°C. Optimal annealing temperature for the Gear is 56.5°C. B. TEM image of well-folded Gear from a 4-hr fold at 56.6°C (scale bar 100nm).
+
+<p class="text1">
+Figure 1: The melt phase separates double-stranded DNA  into single-stranded DNA, then the annealing temperature(s) allowed the complementary staples to bind to the scaffold, and the cooling phase kinetically traps the structure to its final conformation.  </p> 
+
+ <h2 class="sectionsmalltitle">Structure Folding Procedure
+
+</h2>
+<p class="text1">
+Making the sample ready for folding thermal ramp:
+<ol class="list">
+<li>10 μL of scaffold (8064 bases), in 100nM.</li>
+<li>20 μL of staples, in 500nM each.</li>
+<li>5 μL of 10x FOB (50nM TRIS, 10mM EDTA, 50mM NaCl).</li>
+<li>10 μL of ddH2O.</li>
+<li>5 μL of MgCl2 in 10x final concentration.</li>
+</ol>
+
+ </p> 
+
+<video width="700" height="700" autoplay loop>
+<source src="webm/wb1.webm"/>
+</video>
+  </div>
+
+  <div class="mySlides">
+    <h1 class="sectiontitle">Protocols</h1>
+          <div class=line1></div>
+    <h2 class="sectionsmalltitle">Polyethylene Glycol (PEG) Centrifugation
+
+</h2>
+  <p class="text1"><ol class="list">
+  <li>1. In a 1.5 mL epi tube, add the desired volume of the structure.</li>
+  <li> Add an equivalent volume of 15% PEG8000, and pipette up and down to mix.</li>
+  <li> Spin in centrifuge at 16,000 G for 30 min.</li>
+  <li> Resuspend in 1x tris and EDTA based dye w/ 20 mM MgCl2, with a volume equal to the initial volume of the structure.</li>
+</ol>
 </p>
    <p color:"red" class="text1" text-align:"center" ><i>Click Arrows at top to acess next slide</i></p>
 </h2>
 <p>
 </p>
-  </div>
-
-  <div class="mySlides">
-   <h1 class="sectiontitle">Discussion
-
 </h1>
-      <div class=line1></div>
+
   <h2 class="sectionsmalltitle">
 </h2>
     <p class="text1">
@@ -157,53 +175,97 @@ Once optimal MgCl2 conditions are known further characterization  includes a 4-h
 </p>
 </div>
   <div class="mySlides">
-   <h1 class="sectiontitle">Future Work
+    <h1 class="sectiontitle">Protocols</h1>
+          <div class=line1></div>
+   
+ <h2 class="sectionsmalltitle">Nanodrop Concentration Measurement
 
-</h1>
-      <div class=line1></div>
-  <h2 class="sectionsmalltitle">
 </h2>
-    <p class="text1">Future work consists of three outlooks. The first direction optimizes the binding and detachment of the Gear to the Track by varying the number of overhangs in each site. At each overhang site, there are three overhangs. This makes it challenging to remove the Gear from the Track, which results in low efficiency for actuation. We aim to investigate the effect of folding the Gear and Track with one or two overhangs at each site to analyze the efficiency of attachment, detachment, and actuation of the Gear on the Track. We hypothesis that the reduction of overhangs at each site will decrease the attachment efficiency, however, we expect a higher detachment and consequently higher actuation efficiencies.   
-Our final direction consists of using fluorescence microscopy to visualize the movement or actuation of the Gear on the Track in real-time. We aim to use single-molecule 
+ <p class="text1">
+ <ol class="list">
+<li>the NanoDrop program on the thermocycler computer.</li>
+<li>Select nucleic acids.</li>
+<li>Leave the arm down for NanoDrop to calibrate.</li>
+<li>Once the calibration is done, add 1-2 μL of the buffer to the NanoDrop and click “BLANK”.</li>
+<li>Name the sample in the bar on the top right.</li>
+<li>Clean the buffer on the platform and the arm using a KimWipe.</li>
+<li>Add 1-2 μL of sample, close the arm, and click “Run”.</li>
+<li>Save with a descriptive name.</li>
+<li>Repeat steps 6-8 at least three times and ensure close values. Take the average of those values.</li>
+<li>Clean with 2 μL of ddH2O. Add the drop and close the device to clean both the arm and the platform. </li>
+<li>Calculate molarity using the following equation.</li>
+<li>A [ng/L]B*660*1,000,000 = C nM</li>
+<ul>
+Where: 
+<li>A: the concentration, in ng/μL, obtained from the NanoDrop.</li>
+<li>B: the number of bases of the scaffold being used. (8064 in this project)</li>
+<li>C: the concentration, in nM.</li>
+<li>For single-stranded DNA, use 330 instead of 660.</li>
+</ul>
+</li>
+</ol>
 
 
+</p>
+<video width="700" height="700" autoplay loop>
+<source src="webm/wb2.webm"/>
+</video>
+</div>
+  <div class="mySlides">
+    <h1 class="sectiontitle">Protocols</h1>
+          <div class=line1></div>
+   
+ <h2 class="sectionsmalltitle">Transmission Electron Microscopy (TEM)
 
-The track structures are polymerized with the length of 200 nm, and the distance between the first location (AB) and the final location (EF) was calculated to be approximately 30 nm, which is only 15% of the overall length of the track. In the future, more sites can be created for actuation, so that the gear will be able to move further on the track. 
+</h2>
+ 
+<ol class="list">
 
 
-
-In this project, TEM was the only device that allows us to observe the gear and track structures, which is only able to provide static images. The movement of gear on the track could not be observed directly with TEM. In the future, single molecule fluorescence imaging can be used to visualize gear movement in real time. 
+<li> Before grid preparation, prepare Uranyl formate (UFo) staining solution.</li>
+<ul>
+<li> Thaw out premade stock of UFo, and place 1 mL droplet of 5M NaOH on the inner wall of the tube.</li>
+<li> Vortex on high setting for 2 minutes, then centrifuge at high setting for 3 mins.</li>
+</ul>
+<li>Place TEM grids on a slide using tweezers, and clean and prep surface using the plasma etcher.</li>
+<li>Hold grid using tweezers, and add 3 μL of sample onto the carbon coated side of the grid. Allow sample to adsorb onto grid surface for 4 minutes.</li>
+<li> With approximately 1 min left, place one 10 μL drop and one 20 μL drop of UFo on a parafilm surface.</li>
+<li> When time has elapsed, wick off excess solution on the grid using a filter paper. Invert grid onto the 10 mL UFo droplet such that the carbon coated side is in contact with UFo. Immediately wick off excess UFo using the filter paper.</li>
+<li> Invert grid onto the 20 μL UFo droplet. Maintain contact with UFo for 40 sec. After 40 sec has elapsed, wick off excess UFo using the filter paper.</li>
+<li> Store prepared grid in a TEM grid box.</li>
+</ol>
 
 
 </p>
 </div>
-<div class="mySlides">
-   <h1 class="sectiontitle">Gear and Track Attachment
-</h1>
-      <div class=line1></div>
-  <h2 class="sectionsmalltitle">Gear and Track with overhangs
+  <div class="mySlides">
+    <h1 class="sectiontitle">Protocols</h1>
+          <div class=line1></div>
+   
+ <h2 class="sectionsmalltitle">Agarose Gel Electrophoresis
+
 </h2>
-    <p class="text1">(Magnesium screen, 2.5 d, with overhang)
-After the addition of the overhang, the structures for gear and track were changed, new concentration and new folding temperature needs to be redefined for both gear and track.  (cite: A Primer to Scaffolded DNA origami)
+ <p class="text1">Preparing the samples:
+ <ol class="list">
+<li>Add 15uL of sample to 3uL of loading dye.</li>
+Running the gel:
+<ol class="list">
 
+<li> Place 250 mL beaker on scale and add 1.25 g agarose. Then fill to 62.5g with .5x TBE buffer and heat in microwave for 1.5 min. Refill to 62.5 g with ddH2O and 0.5mL 1.375M MgCl2.</li>
+<li> Carefully add 2 μL of ethidium bromide (EtBr) and mix the contents of the beaker thoroughly before pouring out into a gel rig. Place comb into gel rig and allow mixture to cool 15-20 mins before removing comb.</li>
+<li>Fill the gel rig with 0.5 x TBE with 11mMmg buffer.</li>
+<li> Load 17uL of samples into the wells.</li>
+<li>Load 6uL of 100kbps ladder into the gel.</li>
+<li>Secure the cathode and anode to the rig and power source, and run for 2 hours in 80 volts. Place ice around rig so that overheating does not occur.</li>
+<li>Remove gel from rig and place it on the UV table.</li>
+<li>Place the camera over the gel and turn the camera on.</li>
+<li>Open the imaging software on the computer. Center camera over the gel and take the image.</li>
 
-(Rapid fold, 4 hr, with overhang)
-Folding temperature needs to be determined under the new magnesium concentration.  (cite: Rapid Folding of DNA into Nanoscale Shapes at Constant Temperature by Dietz)
- 
-
-(PEG Purification)
-Polyethylene glycol centrifugation purification is used to easily purify excess staples from a folding reaction. (cite: Facile and Scalable Preparation of Pure and Dense DNA Origami Solutions by Dietz)
-
-(Actuation, blockers and removals)
-To enable the gears to roll on the tracks, strand displacement was performed step-by-step. 
-Step 1. Track and gear were diluted to 1:2 in concentration. In this project, 10 nM track and 20 nM gear were used.
-Step 2. Blockers C, D, E, and F were added to the track, with concentration of the mixture of blockers to be 10x of the concentration of the track. Once the blockers were added, the tube was labeled as “reaction tube” or “RT”, and was put into the thermomixer at 25 C, 250 rpm for 30 minutes.
-Step 3. Overhangs C, D, E, and F on the track were blocked, while overhangs A and B were remained open. Gear was added to the reaction tube, and the reaction tube was put into the thermomixer at 25 C, 250 rpm for 24 hours. 
-Step 4. After 24 hours, gears and tracks have overhangs A and B binded. To perform strand displacement, one previous overhang on the track was blocked and the next overhang blocker was removed to allow the gears to move one step on the track. (i.e. Add blocker A to disconnect the binded overhang A, and add removal C to remove blocker C on the tracks, so that gears and tracks will have overhangs B and C binded)
 
 </p>
-
-
+<video width="700" height="700" autoplay loop>
+<source src="webm/wb3.webm"/>
+</video>
 </div>
 
 
@@ -221,6 +283,10 @@ Step 4. After 24 hours, gears and tracks have overhangs A and B binded. To perfo
 </div>
 
 <style type="text/css">
+ol.list{
+text-align:left;
+font-size:1.5vw;
+}
   div.line2{
   margin-top:1vh;
 background-color:#131414;
